@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "description": "Agent's Attribute 666",
+      "name": "agent_attr_666",
+      "y": 36,
+      "color": "#000E22"
+    },
+    {
+      "description": "Customer's Attribute 256",
+      "name": "customer_attribute_256",
+      "y": 25,
+      "color": "#0056A2"
+    },
+    {
+      "description": "Customer's Attribute 13",
+      "name": "customer_attribute_13",
+      "y": 10,
+      "color":  "#176A73"
+    },
+    {
+      "description": "Agent's Attribute 123",
+      "name": "agent_attr_123",
+      "y": 9,
+      "color":  "#7EBB8C"
+    },
+    {
+      "description": "Average of Customer's time on call",
+      "name": "average_of_customer_time_on_call",
+      "y": 8,
+      "color":  "#ACD4AA"
+    },
+    {
+      "description": "Agent's ABC Attribute",
+      "name": "agent_external_attribute",
+      "y": 7,
+      "color":  "#D3E8D2"
+    },
+    {
+      "description": "Various features",
+      "name": "various_features",
+      "y": 5,
+      "color":  "#DBDEDB"
+    }
+  ]
+}

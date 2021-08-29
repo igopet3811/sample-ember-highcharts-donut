@@ -1,0 +1,23 @@
+<div class="row-component">
+  <span class="row-percentage" style="background-color: {{@data.color}}; color: {{this.textColor}}">
+    {{@data.y}}%
+  </span>
+  <div style="display: grid;">
+    <span class="row-detail">
+      {{@data.description}}
+    </span>
+    <span class="row-detail">
+      {{@data.name}}
+    </span>
+  </div>
+
+<!--  {{#if this.isLarge}}-->
+<!--    <button type="button" {{on "click" this.toggleSize}}>-->
+<!--      Large-->
+<!--    </button>-->
+<!--  {{else}}-->
+<!--    <button type="button" {{on "click" this.toggleSize}}>-->
+<!--      Small-->
+<!--    </button>-->
+<!--  {{/if}}-->
+</div>

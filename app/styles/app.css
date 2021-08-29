@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,300italic,400,700,700italic);
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+span,
+a,
+button {
+  font-family: 'Roboto';
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1024px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.explainability {
+  display: -webkit-box;
+}
+
+.explainability-table {
+  display: inline-grid;
+}
+
+.row-component {
+  display: inline-flex;
+  margin: 10px;
+}
+
+.row-percentage {
+  width: 48px;
+  height: 48px;
+  background-color: darkseagreen;
+  text-align: center;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 48px;
+}
+
+.row-detail {
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 20px;
+  width: 350px;
+  font-size: 12px;
+}
+
+.explainability-chart {
+  height: 800px;
+  width: 800px;
+}
